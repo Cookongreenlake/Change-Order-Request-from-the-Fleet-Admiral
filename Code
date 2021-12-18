@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--Lodwrick Cook-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The launch will start in...</h1>
+    <!-- this is the title for the webpage-->
+<script>
+
+
+
+for ( var i = 10; i >= 0; i--)
+//this seets up the variable "i" to be used as the countdown timer
+// sets "i" to 10 and while "i" is greater than or equal to 0 it will subtract 1 from "i"    
+{
+    document.write(i);
+    document.write("<br/>");
+    //these two lines will output the current valur of "i" and make a line break after
+    if (i == 5) 
+    {document.write("Warning Less than ½ way to launch, time left = ")
+    document.write("<br/>");}
+    // this shows the text in line 25 when the variable "i" is between 4 and 5
+
+    if (i == 0)
+    document.write ("Blastoff!!!");
+    //this if statement will write blastoff whe "i" reaches 0
+}
+        
+</script>
+</body>
+</html>
